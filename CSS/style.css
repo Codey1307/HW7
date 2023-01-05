@@ -1,0 +1,260 @@
+@import url("https://fonts.cdnfonts.com/css/ubuntu");
+@import url("https://fonts.cdnfonts.com/css/verdana");
+
+header svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}
+
+body {
+  font-family: "Ubuntu";
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: white;
+}
+
+.header-wrapper {
+  height: 58px;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 155px;
+  height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 18px 0 18px 80px;
+}
+
+.header-wrapper a:hover {
+  color: #3cb878;
+}
+
+.header-wrapper svg:hover {
+  fill: #3cb878;
+}
+
+.header-left-part {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 80px;
+}
+
+.header-icons {
+  display: flex;
+}
+
+.header-icons > :nth-child(n) {
+  margin-right: 25px;
+}
+
+.header-line {
+  width: 1px;
+  height: 19px;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.5;
+  margin-top: 3px;
+}
+
+.form-container {
+  width: 444px;
+  height: 584px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shape {
+  position: absolute;
+  top: 29px;
+  width: 18px;
+  height: 18px;
+  background-color: #3cb878;
+}
+
+.form-content {
+  width: 324px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.form-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up {
+  height: 14px;
+  font-size: 20px;
+  color: #434343;
+  padding-top: 31px;
+  padding-bottom: 15px;
+}
+
+.log-in {
+  font-size: 14px;
+  color: #3cb878;
+  padding-top: 33px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 160px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fb-button {
+  background-color: #305db8;
+}
+
+.fb-button:hover {
+  background-color: #022263;
+}
+
+.google-button {
+  background-color: #df4a32;
+}
+
+.google-button:hover {
+  background-color: #ab1f09;
+}
+
+.facebook-rectangle {
+  width: 1px;
+  height: 28px;
+  background-color: #0a162f;
+  margin: 0 18px;
+  opacity: 0.1;
+}
+
+.google-rectangle {
+  width: 1px;
+  height: 28px;
+  background-color: #2b0d09;
+  margin: 0 30px 0 7px;
+  opacity: 0.1;
+}
+
+.fb-icon {
+  margin-left: 16px;
+}
+
+.google-icon {
+  margin-left: 12px;
+}
+
+.alternative-line {
+  margin-top: 30px;
+  display: flex;
+}
+
+.alternative-text {
+  color: #848484;
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+.or-line {
+  width: 152px;
+  height: 1px;
+  align-self: center;
+  background-color: #f2f2f2;
+}
+
+input {
+  width: 324px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+.first-name {
+  margin-top: 12px;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #bebebe;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.agreement {
+  color: #434343;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.agreement a {
+  font-family: "verdana";
+  color: #3cb878;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.create-acc-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 324px;
+  height: 46px;
+  background: rgba(60, 184, 120, 0.8);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.create-acc-btn:hover {
+  background-color: #01813f;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+  color: #01813f;
+}
+
+input:focus {
+  border: 0;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+  outline: none;
+}
